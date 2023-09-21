@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #171717;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.head {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+    text-transform: uppercase;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* estilos navbar  */
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+/* estilos inicio */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 100vh !important;
+    background: url(banner/Banner.jpg) no-repeat center; /*para poner video de fondo  */
+    background-size: cover;
+}
+
+/* .mivideo {
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.texto-inicio {
+    margin: 14% 15% 30%;
+    padding: 5%;
+    z-index: 1;
+} */
+
+
+/* estilos titulo */
+.tittle {
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.subtitulo {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: black;
+    padding: 0 100px;
+}
+
+.subtitle {
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* estilos newin */
+
+.sub_n {
+    padding: 20px;
+    color: white;
+    
+}
+.content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #171717;
+}
+
+.gallery-containern {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    padding: 50px;
+    grid-gap: 50px;
+    
+}
+
+.gallery__itemn {
+    position: relative;
+}
+
+.gallery__imgn {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #fff;
+}
+
+
+/* estilos quien soy */
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+    height: 30vh;
+    margin-top: 120px
+}
+
+.contenedor-quien {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+ .img-quien {
+    max-width: 200px;
+    float: right;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+ }
+
+/* estilos trabajos */
+.price {
+   background-color: #171717;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    height: 320Vh;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.titulo {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    padding: 50px;
+    grid-gap: 50px;
+    
+}
+
+.gallery__item {
+    position: relative;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #fff;
+}
+
+
+
+.mivideo {
+    position: sticky;
+    width: 90%;
+    height: 90%;
+    z-index: 0;
+}
+
+
+
+/* estilos contacto */
+
+
+
+.container-form {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+
+.container-form h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.container-form form textarea {
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.container-form .btn-enviar:hover{
+    background: #e39403;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+    width: 80px;
+}
+
+/* responsibe */
+
+@media (max-width: 1440px){
+    .wrapper{
+        height: 75vh;
+    }
+}
+
+@media (max-width: 1024px){
+
+    .navbar{
+        margin-right: 40px;
+    }
+
+    .header{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .gallery__imgn{
+        width: 280px;
+    }
+
+    .wrapper{
+        height: 110vh;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar{
+        display: flex;
+        margin-right: 130px;
+        padding: none;
+    }
+
+    .header{
+        height: 100%;
+        width: 100%;
+    }
+
+    .gallery__imgn{
+        width: 100%;
+        
+    }
+
+    .wrapper{
+        height: 130vh;
+    }
+
+    .content-sau{
+        height: 100vh;
+    }
+
+    .contenedor-quien{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .txt{
+        order: 1;
+        font-size: 14px;
+        margin: 0;
+        padding: 50px;
+    }
+
+    .img-quien{
+        order: 2;
+        
+    }
+
+    .mivideo{
+        width: 300px;
+    }
+
+    .container{
+        width: 100%;
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 425px){
+    .navbar{
+        display: none;
+    }
+
+    .header{
+        height: 100%;
+        width: 100%;
+    }
+
+    .content-sau{
+        height: 220vh;
+    }
+
+    .gallery-containern{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery__imgn{
+        width: auto;
+    }
+
+    .wrapper{
+        height: 130vh;
+    }
+
+    .contenedor-quien{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txt{
+        font-size: 14px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .txt-poder{
+        font-size: 14px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .txt-lujo{
+        font-size: 14px;
+        margin: 0;
+        padding: 10px;  
+    }
+
+    .container-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-form{
+        order: 1;
+    }
+
+    .formulario{
+        order: 2;
+    }
+}
+ 
+@media (max-width: 375px){
+    .header{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .titulo{
+        font-size: 30px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .gallery-containern{
+        align-items: center;
+    }
+
+    .wrapper{
+        height: 150vh;
+    }
+
+    .form-contacto{
+        width: 100px;
+    }
+}
+
+
+
+
